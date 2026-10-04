@@ -1,0 +1,14 @@
+{
+  "name": "mf-vite-manifest-ssr-entry-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "@module-federation/runtime": "2.9.2",
+    "@module-federation/vite": "1.23.1",
+    "vite": "8.3.2"
+  }
+}
